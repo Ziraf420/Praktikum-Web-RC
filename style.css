@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+*{
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0; 
+}
+
+.container{
+    margin: auto;
+    width: auto;
+    height: auto;
+}
+
+header{
+    background-color: #3d728d;
+    height: auto;
+    text-align: center;
+}
+
+.header-content{
+    padding: 30px;
+}
+
+.header-content h1{
+    padding: 15px;
+}
+
+.nav-bar{
+    background-color: #cf9c84;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-bar li {
+    list-style: none;
+    float: left;
+    padding: 33px 20px;
+    list-style-type: none;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: black;
+}
+
+#body{
+    display: flex;
+    height: auto;
+    width: auto;
+}
+
+.mainContent{
+    background-color: rgb(216, 44, 44);
+    height: auto;
+    width: 70%;
+    padding: 30px;
+}
+
+.mainContent h2{
+    padding-bottom: 5px;
+}
+
+.mainContent img {
+    padding-top: 20px;
+}
+
+.mainContent p{
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.education {
+    padding-top: 20px;
+}
+.education-list{
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+.sideBar{
+    background-color: #A09F57;
+    height: auto;
+    width: 30%;
+    padding: 30px;
+}
+
+.sideBar h2{
+    padding-bottom: 10px;
+}
+
+.sideBar nav {
+    padding-left: 15px;
+}
+
+footer{
+    background-color: #C56824;
+    height: auto;
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+    font-weight: bolder;
+}
