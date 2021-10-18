@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Tugas Praktikum Minggu 3</title>
+		<link rel="stylesheet" type="text/css">
+	</head>
+
+	<body>
+
+		<label for="PilTema">Select Theme:</label>
+		<select name="pilTema" id="pilTema" onchange="changeTheme()">
+		  <option value="white">White</option>
+		  <option value="black">Black</option>
+		</select>
+
+		<h1>This is my website</h1>
+
+	 	<label for="pilCuaca">Select the weather type today:</label>
+		<select name="pilCuaca" id="pilCuaca" onchange="changeWeather()">
+		  <option value="sunny">Sunny</option>
+		  <option value="rainy">Rainy</option>
+		</select>
+
+		<p id="cuaca"></p>
+
+		<label for="factorial">Input Number:</label>
+		<input type="number" id="factorial" name="factorial">
+		<button onclick="getFactorial()">Get Factorial</button>
+		<p id="result"></p>
+
+	  <script src="index.js"></script>
+	</body>
+</html>
