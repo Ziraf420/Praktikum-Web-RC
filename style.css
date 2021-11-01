@@ -1,0 +1,107 @@
+*{
+    font-family: 'Times New Roman', Times, serif, Tahoma, Sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    margin: 10;
+    height: auto; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: darkkhaki ;
+}
+h1{
+    text-align: center;
+    margin: 20px;
+}
+h2,h3{
+    padding: 30px;
+}
+
+.head{
+    background-color: rgb(0, 255, 170);
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+
+h1.text{
+    text-align: center;
+    font-size: 25px;
+}
+
+img.logo{
+    padding: 0 120px;
+    text-align: center;
+}
+nav{
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    background-color:rgb(22, 218, 64);
+    box-shadow: 0px 8px 10px #473f3faf;
+}
+
+nav ul{
+    margin-left: 120px;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 7px;
+    text-align: center;
+}
+
+nav ul li a{
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+nav ul li a:hover{
+    color: rgb(105, 98, 202);
+    transition: 25ms;
+}
+
+#content {
+    padding: 120px;
+    margin: auto;
+    font-size: 18px;
+}
+
+#content th{
+    padding: 12px 15px;
+}
+
+#content td {
+    padding: 12px 15px;
+    font-size: 18px;
+    text-align: center;
+}
+  
+#content tr:nth-of-type(odd) {
+    background-color: rgb(157, 245, 84);
+    text-align: center;
+}
+.body{
+    background-color: aquamarine;
+}
+
+button{
+    margin-top: 20px;
+    padding: 10px 25px;
+    background-color:rgb(157, 245, 84);
+    border: none;
+    border-radius: 70px;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: scale(1.1);
+    transition: all .2s;
+    z-index: 100;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.158);
+}
