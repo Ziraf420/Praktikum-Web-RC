@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 01 Nov 2021 pada 17.40
+-- Waktu pembuatan: 02 Nov 2021 pada 05.21
 -- Versi server: 10.4.21-MariaDB
 -- Versi PHP: 8.0.12
 
@@ -39,10 +39,20 @@ CREATE TABLE `mahasiswa` (
 --
 
 INSERT INTO `mahasiswa` (`nim`, `nama`, `prodi`, `angkatan`) VALUES
-(119140199, 'Muhammad Fariz Luthfi', 'Teknik Informatika', 2019),
-(120140120, 'Martatia Putri Amanda', 'Teknik Informatika', 2020),
 (118140011, 'Neza Chania Putri', 'Teknik Informatika', 2018),
-(119220123, 'Ghina Khairunnisa', 'Perencanaan Wilayah dan Kota', 2019);
+(119140199, 'Muhammad Fariz Luthfi', 'Teknik Informatika', 2019),
+(119220123, 'Ghina Khairunnisa', 'Perencanaan Wilayah dan Kota', 2019),
+(120140120, 'Martatia Putri Amanda', 'Teknik Informatika', 2020);
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indeks untuk tabel `mahasiswa`
+--
+ALTER TABLE `mahasiswa`
+  ADD PRIMARY KEY (`nim`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
