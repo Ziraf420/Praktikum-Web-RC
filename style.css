@@ -1,0 +1,50 @@
+*{
+    font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    margin: 0;
+    height: auto; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    margin: 0;
+    height: 20%;
+}
+.all-contents{
+    
+    height: auto;
+    width: 100%;
+    padding: 20px;
+}
+
+.table {
+    font-family: sans-serif;
+    color: #444;
+    border-collapse: collapse;
+    width: 50%;
+    border: 1px solid #f2f5f7;
+}
+
+.table tr th{
+    background: #fffafa;
+    color: rgba(75, 73, 73, 0.014);
+    font-weight: normal;
+}
+
+.table, th, td {
+    padding: 8px 20px;
+    text-align: center;
+}
+
+.table tr:hover {
+    background-color: #2c2c2c;
+}
+
+.tabletr:nth-child(even) {
+    background-color: #3dfd0d;
+}
